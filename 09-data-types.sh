@@ -7,5 +7,6 @@ SUM=$((NUM1+NUM2))
 
 echo "Sum is  : $SUM"
 
-echo "I Think 300"
+FRUITS=("APPLE" "BANANA" "PROMO")
 
+echo "Fruits are :${FRUITS[@]}"
